@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (Virtual Envs)
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs (PyCharm, VSCode)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment Variables (Segurança!)
+.env
+
+# Testing
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.coverage
