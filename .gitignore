@@ -24,3 +24,9 @@ nosetests.xml
 coverage.xml
 *.cover
 .coverage
+
+# Proto generated files
+app/adapters/proto_generated/analysis_pb2.py
+
+# Claude Code
+.claude/

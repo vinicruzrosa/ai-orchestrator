@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package fluentbase;
+
+message AnalysisRequest {
+  string correlation_id = 1;
+  string message = 2;
+  string requested_at = 3;
+}
+
+message AnalysisResponse {
+  string correlation_id = 1;
+  string message = 2;
+  bool is_correct = 3;
+  string explanation = 4;
+  string reply = 5;
+  string inferred_context = 6;
+  optional string correction = 7;
+  repeated string suggestions = 8;
+  string processed_at = 9;
+  bool success = 10;
+  optional string error_code = 11;
+  optional string error_message = 12;
+}
